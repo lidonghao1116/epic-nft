@@ -1,0 +1,227 @@
+.container {
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  padding-top: 170px;
+  .twitterLogo {
+    height: 120px;
+    width: 120px;
+    background-size: 100%;
+    background-image: url(./twitter.png);
+  }
+}
+.boxGroup {
+  width: 800px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  .comp {
+    position: absolute;
+    background-repeat: no-repeat;
+    pointer-events: none;
+  }
+  
+  .bg {
+    height: 653px;
+    width: 804px;
+    left: 25%;
+    top: -2px;
+    background-size: 100%;
+    background-image: url(./bg.png);
+    opacity: 0.5;
+  }
+  .lword {
+    height: 518px;
+    width: 100%;
+    top: 370px;
+    left: 2%;
+    background-size: 100%;
+    background-image: url(./lword.png);
+  }
+}
+.lprice {
+  height: 10px;
+  width: 120px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(./lprice.png);
+}
+.lwow {
+  height: 15px;
+  width: 380px;
+  margin-top: 80px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(./lwow.png);
+}
+.buttonGroup {
+  width: 200px;
+  margin-top: 20px;
+  .buttonMint {
+    background-repeat: no-repeat;
+    height: 60px;
+    background-size: 100%;
+    background-image: url(./btn_mint.png);
+  }
+  .buttonMintNo {
+    background-repeat: no-repeat;
+    height: 60px;
+    background-size: 100%;
+    background-image: url(./btn_mint_no.png);
+  }
+  .buttonSoldOut {
+    background-repeat: no-repeat;
+    height: 60px;
+    background-size: 100%;
+    background-image: url(./btn_os.png);
+  }
+  .connect {
+    background-repeat: no-repeat;
+    height: 60px;
+    background-size: 100%;
+    background-image: url(./connect.png);
+  }
+}
+
+.mintMain {
+  margin-top: 500px;
+}
+
+.totalCounter {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  .fex {
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.Counter {
+  //background: #23222e;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.texts {
+  .title {
+    font-size: 30px;
+    line-height: 45px;
+    color: #fcfcfd;
+  }
+}
+.form {
+  display: flex;
+  align-items: center;
+  .inputBox {
+    text-align: center;
+    background: #6b6a7f;
+    border: none;
+    width: 100px;
+    height: 32px;
+    box-sizing: border-box;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 12px;
+    font-size: 16px;
+    color: #ebebf1;
+    &::placeholder {
+      color: #ebebf1;
+    }
+    border-radius: 2px 2px 2px 2px;
+    &:focus {
+      outline: none;
+    }
+  }
+  .submitButtonDec {
+    // border: none;
+    width: 32px;
+    // box-sizing: border-box;
+    // height: 32px;
+    /*border-radius: 0 12px 12px 0;*/
+    //border-radius: 10px 10px 10px 10px;
+    // font-size: 16px;
+    // font-weight: bold;
+    // line-height: 24px;
+    //color: #fcfcfd;
+    background-repeat: no-repeat;
+    height: 32px;
+    background-size: 100%;
+    background-image: url(./btn_-.png);
+  }
+  .submitButtonInc {
+    // border: none;
+    width: 32px;
+    // box-sizing: border-box;
+    // height: 32px;
+    /*border-radius: 0 12px 12px 0;*/
+    //border-radius: 10px 10px 10px 10px;
+    // font-size: 16px;
+    // font-weight: bold;
+    // line-height: 24px;
+    //color: #fcfcfd;
+    background-repeat: no-repeat;
+    height: 32px;
+    background-size: 100%;
+    background-image: url(./btn_+.png);
+  }
+}
+.statusOverlay {
+  height: 31px;
+}
+.footer {
+  margin-top: 100px;
+  display: flex;
+  padding: 20px 2px 2px;
+  box-sizing: border-box;
+  border-top: 2px solid transparent;
+  color: #ebebf1;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+ 
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+
+    .twitterLogo {
+      height: 453px;
+      width: 650px;
+      left: 10%;
+      top: -80px;
+      background-size: 100%;
+      background-image: url(./twitter.png);
+    }
+  
+}
+
+
+.links {
+  display: flex;
+  align-items: center;
+
+  .link {
+    line-height: 24px;
+    margin-right: 30px;
+    font-size: 16px;
+    a {
+      color: #ebebf1;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    .Doc {
+      margin-right: -30px;
+    }
+  }
+}
